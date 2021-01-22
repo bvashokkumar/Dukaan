@@ -107,7 +107,8 @@ function Home() {
                     </div>
                     <div style={{ display: 'flex', margin: '0px 32px 24px 32px', flexWrap: 'wrap', justifyContent: 'space-between' }}>
                         {orderData.map(item => {
-                            return <OrderWhiteCard>
+                           return  <div style={{ width: '32%' }}>
+                             <OrderWhiteCard>
                                 <div style={{ display: 'flex', marginBottom: '12px' }}>
                                     <div style={{ color: '#000000', fontSize: '16px', fontFamily: 'GalanoGrotesqueMedium', fontWeight: '500' }}>Order #{item.orderId}</div>
                                     {item.new ? <GreenBox>NEW</GreenBox> : null}
@@ -127,6 +128,7 @@ function Home() {
                                     </div>
                                 </div>
                             </OrderWhiteCard>
+                            </div>
                         })}
                     </div>
                 </div>
