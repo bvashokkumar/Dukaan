@@ -72,7 +72,6 @@ export const OrderWhiteCard = styled.div`
     background-color:#ffffff;
     margin:0px 0px 24px 0px;
     width:30%;
-    min-width:350px;
 `
 export const GreenBox = styled.div`
     margin-left:8px;
