@@ -42,7 +42,7 @@ const CountsChip = styled.div`
 
 const NeedHelpContainer = styled.div`
     margin: auto 16px 16px 16px;
-    padding: 24px 0 16px 16px;
+    padding: 8px 16px;
     border-radius: 4px;
     background-color: rgb(247, 247, 247,0.1);
     line-height:1.5;

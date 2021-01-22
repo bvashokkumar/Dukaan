@@ -31,7 +31,7 @@ function Home() {
                     </HeaderContainer>
                     <div style={{ display: 'flex', margin: '0px 32px 24px 32px' }}>
                         <div style={{ color: '#1a181e', fontSize: '20px', fontFamily: 'GalanoGrotesqueMedium', fontWeight: '500' }}>Share store link</div>
-                        <div style={{ margin: 'auto 0px auto auto' }}>
+                        <div style={{ margin: 'auto 0px auto auto',padding:'6px 14px' ,  borderRadius: '4px',border: "solid 1px #cccccc",background:'White'}}>
                             <select name="month">
                                 <option value="Last Month">Last Month</option>
                             </select>

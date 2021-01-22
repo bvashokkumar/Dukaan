@@ -1,8 +1,12 @@
 select {
   background-color: #ffffff;
-  padding: 6px 14px;
-  border-radius: 4px;
-  border: solid 1px #cccccc;
+  padding: 0px 20px 0px 0px;
+  border:none;
   font-family: GalanoGrotesqueRegular;
   font-size: 16px;
+  line-height: 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance:none;
+  background: url(../src/assets/icons_arrow.svg) no-repeat right white;
 }
