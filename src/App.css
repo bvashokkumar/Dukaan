@@ -1,0 +1,8 @@
+select {
+  background-color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  font-family: GalanoGrotesqueRegular;
+  font-size: 16px;
+}

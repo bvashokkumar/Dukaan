@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "GalanoGrotesqueMedium";
+  src: local("GalanoGrotesqueMedium"),
+    url("./assets/GalanoGrotesqueMedium.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "GalanoGrotesqueRegular";
+  src: local("GalanoGrotesqueRegular"),
+    url("./assets/GalanoGrotesqueRegular.ttf") format("truetype");
+}
